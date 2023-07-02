@@ -1,0 +1,42 @@
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;    
+    position:sticky;
+    top: 0px;   
+ }
+ #navbar{
+   background-color:black;   
+}
+/* Navigation Bar : List styling */
+#navbar ul{
+    display: flex;
+ }
+ #navbar::before{
+    content: "";
+    background-color:rgb(243, 243, 243);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+ }
+ #navbar ul li{
+      list-style: none;
+      font-size: 1.3rem;
+ }
+ #navbar ul li a{
+    color:white;
+    display: block;
+    padding: 10px 22px;
+    border-radius:20px;
+    text-decoration: none;
+ }
+ #navbar ul li a:hover{
+    cursor:pointer;
+    font-size:x-large;
+    
+ }
+
+ 
